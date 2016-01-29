@@ -11,9 +11,9 @@ Sample for [browserstack-runner](https://github.com/browserstack/browserstack-ru
 ````
 
 ### Run on BrowserStack
-`BROWSERSTACK_JSON=tests/browserstack.json ./node_modules/.bin/browserstack-runner --verbose`
+`BROWSERSTACK_JSON=tests/browserstack.json ./node_modules/.bin/browserstack-runner`
 
-- OR -
+OR
 
 `npm run test-ci`
 
@@ -21,7 +21,7 @@ Sample for [browserstack-runner](https://github.com/browserstack/browserstack-ru
 ### Run Locally
 `grunt test`
 
-- OR -
+OR
 
 `npm test`
 
