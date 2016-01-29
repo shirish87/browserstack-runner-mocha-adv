@@ -1,0 +1,16 @@
+{
+  "name": "browserstack-runner-mocha-adv",
+  "version": "1.0.0",
+  "description": "Sample for browserstack-runner",
+  "devDependencies": {
+    "browserstack-runner": "latest",
+    "chai": "latest",
+    "grunt": "latest",
+    "grunt-mocha": "latest",
+    "mocha": "latest"
+  },
+  "scripts": {
+    "test": "grunt test",
+    "test-ci": "BROWSERSTACK_JSON=tests/browserstack.json ./node_modules/.bin/browserstack-runner"
+  }
+}

@@ -1,0 +1,46 @@
+{
+    "username": "BROWSERSTACK_USERNAME",
+    "key": "BROWSERSTACK_KEY",
+    "build": "browserstack-runner-mocha-adv",
+    "test_framework": "mocha",
+    "test_path": "tests/runner.html",
+    "timeout" : 180,
+    "browsers": [
+        {
+            "browser": "safari",
+            "browser_version": "latest",
+            "os": "OS X",
+            "os_version": "El Capitan"
+        },
+        {
+            "browser": "chrome",
+            "browser_version": "latest",
+            "os": "OS X",
+            "os_version": "El Capitan"
+        },
+        {
+            "browser": "firefox",
+            "browser_version": "latest",
+            "os": "Windows",
+            "os_version": "7"
+        },
+        {
+            "browser": "chrome",
+            "browser_version": "latest",
+            "os": "Windows",
+            "os_version": "7"
+        },
+        {
+            "browser": "ie",
+            "browser_version": "10.0",
+            "os": "Windows",
+            "os_version": "7"
+        },
+        {
+            "browser": "ie",
+            "browser_version": "11.0",
+            "os": "Windows",
+            "os_version": "7"
+        }
+    ]
+}
